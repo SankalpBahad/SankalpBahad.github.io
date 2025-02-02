@@ -43,7 +43,7 @@ h2 {
   margin-bottom: 10px;
 }
 
-.project {
+.proper-section {
   background: #fff;
   padding: 15px;
   margin-bottom: 10px;
@@ -57,4 +57,44 @@ footer {
   text-align: center;
   padding: 10px 0;
   margin-top: 20px;
+}
+
+/* Container styling */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Card styling */
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Heading styling */
+.card h3 {
+  margin-top: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .card-container {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
 }
