@@ -16,7 +16,7 @@
   color: $cardSubtitle;
   font-size: 1.063rem;
   line-height: 1.5rem;
-  text-align: left; 
+  text-align: left;
 }
 .certificate-card {
   background-color: $lightBackground2;
@@ -75,4 +75,11 @@
 }
 span.certificate-tag:hover {
   background: $buttonHover;
+}
+
+@media (max-width: 768px) {
+  .achievement-cards-div {
+    /* On screens 768px or less, this changes the layout to a single column */
+    grid-template-columns: 1fr;
+  }
 }
