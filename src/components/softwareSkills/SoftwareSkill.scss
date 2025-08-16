@@ -1,0 +1,41 @@
+@import "../../_globalColor";
+
+/* 
+  Main container for the skill tags. 
+  It uses flexbox to arrange the tags and allows them to wrap onto the next line on smaller screens.
+*/
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem; /* Defines the space between each skill tag */
+}
+
+/* 
+  Styling for each individual skill box/tag.
+*/
+.skill-tag {
+  // Box model
+  padding: 0.5rem 1.75rem; /* Vertical and horizontal padding inside the box */
+  border-radius: 8px; /* Creates the rounded corners */
+  border: 1px solid $skillsColor; /* Uses your theme's skill color for the border */
+
+  // Color and Text
+  background-color: transparent; /* Makes the box background transparent */
+  color: $subTitle; /* Sets the text color */
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: capitalize; /* Changes "css3" to "Css3", "html-5" to "Html-5", etc. */
+
+  // Interactivity
+  transition: all 0.3s ease-in-out; /* Smooth transition for the hover effect */
+
+  /* The hover effect */
+  &:hover {
+    background-color: $skillsColor; /* Fills the box with your theme's skill color */
+    color: $lightBackground2; /* Changes the text color to be readable on the new background */
+    transform: translateY(-3px); /* Lifts the box up slightly */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+    cursor: default; /* Indicates the item is not clickable */
+  }
+}
