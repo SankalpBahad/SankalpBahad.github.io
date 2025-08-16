@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1eb130d5.css",
+    "main.js": "/static/js/main.b6e77b1b.js",
+    "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.f77b9838.chunk.js": "/static/js/64.f77b9838.chunk.js",
+    "static/css/769.efba1ff5.chunk.css": "/static/css/769.efba1ff5.chunk.css",
+    "static/js/769.2047e449.chunk.js": "/static/js/769.2047e449.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/profilePhoto.png": "/static/media/profilePhoto.cc7fc78aa9da66316c6e.png",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/iiithLogo.png": "/static/media/iiithLogo.98848bc911dbd7b9710c.png",
+    "static/media/saayaHealthLogo.webp": "/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
+    "static/media/nextuLogo.webp": "/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
+    "index.html": "/index.html",
+    "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.1eb130d5.css.map": "/static/css/main.1eb130d5.css.map",
+    "main.b6e77b1b.js.map": "/static/js/main.b6e77b1b.js.map",
+    "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
+    "64.f77b9838.chunk.js.map": "/static/js/64.f77b9838.chunk.js.map",
+    "769.efba1ff5.chunk.css.map": "/static/css/769.efba1ff5.chunk.css.map",
+    "769.2047e449.chunk.js.map": "/static/js/769.2047e449.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1eb130d5.css",
+    "static/js/main.b6e77b1b.js"
+  ]
+}
