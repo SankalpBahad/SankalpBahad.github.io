@@ -3,6 +3,8 @@
 .repo-card-div {
   color: $githubRepoCardColor;
   background-color: $lightBackground2;
+  border-radius: 1px;
+  border: 1px solid $lightBorder1;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   padding: 2rem;
   cursor: pointer;
@@ -10,6 +12,7 @@
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
 .repo-card-div:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
 }
